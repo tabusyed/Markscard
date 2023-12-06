@@ -1,24 +1,4 @@
 
-
-// import React from "react";
-// // import { useNavigate } from "react-router-dom";
-
-
-
-
-
-// export const  Teacher = () => {
-
-//     return (
-//         <div>
-//             This is Teachers page
-//         </div>
-
-        
-//     )
-// }
-
-// src/components/StudentForm.js
 import React, { useState } from 'react';
 
 
