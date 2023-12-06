@@ -3,7 +3,6 @@ import {Navbar,Nav,Container} from 'react-bootstrap';
 import { Route, Routes, Link, BrowserRouter } from 'react-router-dom';
 import MarksScreen from './components/Marks/MarksScreen';
 import TeacherMain from './components/teacher/TeacherMain';
-
 import StudentsMain from './components/students/StudentsMain';
 
 
@@ -26,12 +25,6 @@ function App() {
         </Container>
       </Navbar>
     </>
-    {/* <Route path="teacher" element={<teacherDetails />}>
-        <Route path="/TeacherForm" element={<TeacherForm/>}/>
-        <Route path="/TeacherMain" element={<TeacherMain/>}/>
-        <Route path="/TeacherMain" element={<TeacherTable/>}/>
-
-        </Route> */}
     <div>
       <Routes>
         <Route path="/" element={<MarksScreen/>}/>
