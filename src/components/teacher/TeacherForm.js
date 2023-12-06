@@ -1,10 +1,10 @@
-// src/components/TeacherForm.js
+
 import React, { useState } from 'react';
 
-const formStyle = {
-  maxWidth: '400px',
-  margin: '20px 0',
-};
+// const formStyle = {
+//   maxWidth: '400px',
+//   margin: '20px 0',
+// };
 
 const labelStyle = {
   display: 'block',
@@ -29,7 +29,7 @@ const TeacherForm = ({ onSubmit, onCancel, initialValues }) => {
   };
 
   return (
-    <form style={formStyle} onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <label style={labelStyle}>
         Name:
         <input type="text" name="name" value={formData.name || ''} onChange={handleChange} />
