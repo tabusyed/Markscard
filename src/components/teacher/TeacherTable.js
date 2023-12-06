@@ -1,4 +1,4 @@
-// src/components/TeacherTable.js
+
 import React from 'react';
 
 const tableStyle = {
